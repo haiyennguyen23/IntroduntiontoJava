@@ -1,0 +1,21 @@
+1.	Định nghĩa và ý nghĩa
+•	Ép kiểu là cách chuyển biến thuộc kiểu dữ liệu khác(quá trình chuyển đổi giá trị của một kiểu dữ liệu(int, float, double,…) để thành một loại dữ liệu khác được gọi là typecasting
+•	Ý nghĩa:       -  Việc chuyển dữ liệu sẽ đến lúc phải cần trong quá trình xử lý chương trình.
+                  - Có thể định dạng đúng kiểu dữ liệu mình mong muốn ( Như cách hiển thị kiểu ngày tháng năm trên thế giới khác với Việt Nam nên ta sẽ chuyển kiểu này theo phong cách địa phương).
+                  2. Cú pháp
+                  cú pháp: ( <kiểu dữ liệu>)<tên biến>
+3.Phân loại
+•	Ép kiểu có 13 loại tất cả nhưng có hai loại chính:
+-	Chuyển đổi ngầm định hay còn gọi ép kiểu mở rộng(windening):
+ * Việc chuyển đổi sẽ tự thực hiện bởi compiler và chúng ta không cần làm gì.
+* Việc chuyển đổi này để dành cho kiểu dữ liệu nhỏ chuyển sang dữ liệu lớn hơn.
+* Ta có thể xem chiều từ nhỏ sang lớn như sau:
+	Byte -> short -> int-> long->float->double
+Ví dụ:
+-	Chuyển đổi tường minh hay còn gọi ép kiểu thu hẹp(Narrowwing):
+* ngược lại với cách chuển đổi ngầm định, việc chuyển đổi tường minh là chiều ngược lại từ kiểu dữ liệu lớn hơn sang kiểu dữ liệu nhỏ hơn
+( Với điều kiện giá trị đó kiểu dữ liệu sẽ thay đổi có thể lưu trữ được trong kiểu dữ liệu mi).
+Ví dụ:
+Lưu ý: * Nếu ép kiểu kí tự char sang kiểu dữ liệu số hoặc ngược lại.
+* Khi ép kiểu char sang số thì sẽ ép kiểu ngầm định chuyển sang kí tự hệ thập phân ASCII tương ứng kí tự đó.
+ * Nếu ngược lại thì phải sử dụng ép kiểu tường minh để chuyển sang kiểu kí tự.

@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Loopinginjava/Checkprime/Checkprime.iml" filepath="$PROJECT_DIR$/Loopinginjava/Checkprime/Checkprime.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minitest/Checkprime/Checkprime.iml" filepath="$PROJECT_DIR$/minitest/Checkprime/Checkprime.iml" />
       <module fileurl="file://$PROJECT_DIR$/Demo.iml" filepath="$PROJECT_DIR$/Demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Loopinginjava/Loopinginjava.iml" filepath="$PROJECT_DIR$/Loopinginjava/Loopinginjava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ArraysandmethodsinJava/loop to Java.iml" filepath="$PROJECT_DIR$/ArraysandmethodsinJava/loop to Java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/minitest/minitest.iml" filepath="$PROJECT_DIR$/minitest/minitest.iml" />
     </modules>
   </component>
 </project>
