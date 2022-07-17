@@ -4,7 +4,6 @@ public class fictionBook extends Book{
 
     fictionBook(){
     }
-
    fictionBook(int bookCode, String name, int price, String author, String category){
         super(bookCode, name, price,author);
         this.category = category;
